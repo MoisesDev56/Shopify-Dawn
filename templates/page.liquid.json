@@ -42,6 +42,12 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "16523914648b4e5aaf": {
+      "type": "liquid-ref",
+      "settings": {
+        "liquid-ref": ""
+      }
     }
   },
   "order": [
@@ -49,6 +55,7 @@
     "1652387711eeacf739",
     "1652387737310278a1",
     "1652387770cacf0fc0",
-    "1652387812d1bc4a7d"
+    "1652387812d1bc4a7d",
+    "16523914648b4e5aaf"
   ]
 }
