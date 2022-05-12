@@ -24,11 +24,21 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "1652387770cacf0fc0": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{{ page.title }}",
+        "color_scheme": "accent-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "1652387711eeacf739",
-    "1652387737310278a1"
+    "1652387737310278a1",
+    "1652387770cacf0fc0"
   ]
 }
