@@ -2,176 +2,23 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
     },
-    "16520419063348f737": {
-      "type": "image-banner",
-      "blocks": {
-        "165204190589b646e9-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "About Us",
-            "heading_size": "h1"
-          }
-        },
-        "165204190589b646e9-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "165204190589b646e9-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "165204190589b646e9-0",
-        "165204190589b646e9-1",
-        "165204190589b646e9-2"
-      ],
+    "1652387711eeacf739": {
+      "type": "custom-liquid",
       "settings": {
-        "image": "shopify:\/\/shop_images\/pair-of-silver-framed-sunglasses-on-a-stone-surface.jpg",
-        "image_overlay_opacity": 40,
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "1652042119989b8b22": {
-      "type": "rich-text",
-      "blocks": {
-        "16520421199427d525-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Our company",
-            "heading_size": "h1"
-          }
-        },
-        "16520421199427d525-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>More than 15 years giving the best in eyewear.<\/p>"
-          }
-        },
-        "16520421199427d525-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "16520421199427d525-0",
-        "16520421199427d525-1",
-        "16520421199427d525-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
+        "custom_liquid": "{{ 'Hello Word'|capitalize }}",
+        "color_scheme": "accent-1",
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "1652042275b27a3dbf": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "cover_image": "shopify:\/\/shop_images\/2vidoe.png",
-        "video_url": "https:\/\/youtu.be\/k3WkJq478To",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "165204255119109ccb": {
-      "type": "multicolumn",
-      "blocks": {
-        "16520425504fe1c902-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/happy-woman-on-computer.jpg",
-            "title": "Designer",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "16520425504fe1c902-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/frustrated-man-on-computer.jpg",
-            "title": "Developer",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "16520425504fe1c902-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/programmers-reviewing-code-on-computer.jpg",
-            "title": "Customer Service",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16520425504fe1c902-0",
-        "16520425504fe1c902-1",
-        "16520425504fe1c902-2"
-      ],
-      "settings": {
-        "title": "Team",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "16520419063348f737",
-    "1652042119989b8b22",
-    "1652042275b27a3dbf",
-    "165204255119109ccb"
+    "1652387711eeacf739"
   ]
 }
